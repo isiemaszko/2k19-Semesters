@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TextFieldStyle">
+        <item name="android:background">@color/colorTextBackground</item>
+        <item name="android:textColor">@color/colorTaskName</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_field_size</item>
+        <item name="android:padding">@dimen/task_item_padding</item>
+    </style>
+    <style name="DataFieldStyle">
+        <item name="android:textColor">@color/colorData</item>
+        <item name="android:textSize">@dimen/data_field_size</item>
+        <item name="android:padding">@dimen/task_item_padding</item>
+    </style>
+
+    <style name="FragmentTaskFieldStyle">
+        <item name="android:textColor">@color/colorTaskName</item>
+        <item name="android:textSize">@dimen/text_field_size</item>
+        <item name="android:padding">@dimen/task_item_padding</item>
+        <item name="android:background">@color/colorTextBackground</item>
+    </style>
+
+    <style name="FragmentTaskDetailsFieldStyle">
+        <item name="android:background">@color/colorDetailsBackgroud</item>
+        <item name="android:textSize">@dimen/data_field_size</item>
+        <item name="android:textColor">@color/colorDetailsText</item>
+        
+    </style>
+    <style name="DoneFieldStyle">
+        <item name="android:textColor">@color/colorChechBox</item>
+        <item name="android:padding">@dimen/task_item_padding</item>
+    </style>
+
+</resources>

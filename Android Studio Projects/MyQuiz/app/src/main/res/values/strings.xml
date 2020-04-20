@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyQuiz</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    <string name="q_countries"> Na świecie jest obecnie 201 państw</string>
+    <string name="q_lake">Najgłębsze jezioro w Polsce to Śniardwy</string>
+    <string name="q_union">Polska dołączyła do Unii Europejskiej w 2004 roku</string>
+    <string name="q_usa"> Największym krajem na świecie jest USA</string>
+    <string name="q_civilwar">Wojna domowa w Syrii trwa od 2011 roku</string>
+    <string name="correct_answer">Poprawna Odpowiedź</string>
+    <string name="incorrect_answer">Błędna Odpowiedż</string>
+    <string name="button_promty">Pokaż Odpowiedź</string>
+    <string name="button_prompt">Odpowiedź</string>
+    <string name="text_prompty">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="answer_was_shown">Oszukujesz! Odpowiedź była już wyświetlona.</string>
+</resources>

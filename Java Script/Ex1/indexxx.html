@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BLOG KUCHENNY PANI RÓŻY</title>
+    <style>
+            ol {
+              list-style-type:none;
+              padding:0;
+              margin:0;
+              background-color:#FFF;
+              font-size:18px;
+              height:2em;
+              line-height:2em;
+              text-align:center;
+            }
+             ol a {
+              display:block;
+              text-decoration:none;
+              color:grey;
+              padding:0 5px;
+            }
+             ol > li {
+              float: left;
+              width:155px;
+              margin-left:1px;
+              background-color:white;
+              height:2em; 
+            }
+            ol > li:hover > ul {
+              display:block;
+            } 
+            ol > li > ul {
+              display:none;
+              list-style-type:none;
+              padding:0;
+              margin:0;
+            }
+            ol > li > ul > li {
+              position:relative;
+              background-color:#EEE;
+            }
+            .sub-entry {
+    width: 50%;
+    float: left;
+}
+
+.button {
+    text-align: center;
+    padding-top: 20px;
+    clear: both;
+    
+}
+*{
+  box-sizing: border-box;
+}
+
+
+.main {
+  max-width: 8000px;
+  margin: auto;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 23%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+          </style>
+</head>
+<body>
+    <div style="background-color: pink">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="#" class="fa fa-facebook"  style="padding: 10px; font-size: 25px; color: grey"></a>
+        <a href="#" class="fa fa-twitter" style="padding: 10px; font-size: 25px;  color: grey"></a>
+        <a href="#" class="fa fa-instagram" style="padding: 10px; font-size: 25px;  color: grey"></a>
+        <a href="#" class="fa fa-youtube" style="padding: 10px; font-size: 25px;  color: grey"></a>
+
+        <input  style="text-align:center" type="text" id="mySearch" placeholder="Wyszukaj.." ><br>
+    </div>
+    
+        <div class="header" style="background-color: pink; padding: 10px; text-align:center">
+              <hr>  <h1 style="color:rgba(148, 140, 151, 0.87)" >BLOG KUCHENNY PANI RÓŻY</h1>
+                <hr>
+        </div>
+        <ol>
+                <li><a href="#">Dania mięsne</a>
+                  <ul>
+                    <li><a href="#">Drób</a></li>
+                    <li><a href="#">Wołowina</a></li>
+                    <li><a href="#">Wieprzowina</a></li>
+                  </ul>
+                </li>
+          
+                <li><a href="#">Dania VEGE</a>
+                </li>
+                <li><a href="#">Dania rybne</a>
+                  <ul>
+                    <li><a href="#">Ryby</a></li>
+                    <li><a href="#">Owoce morza</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dania sezonowe</a>
+                  <ul>
+                    <li><a href="#">Grill</a></li>
+                    <li><a href="#">Napoje zimowe</a></li>
+                    <li><a href="#">Owoce</a></li>
+                    <li><a href="#">Warzywa</a></li>
+                  </ul>
+                </li>
+          
+                <li><a href="#">Desery</a>
+                <ul>
+                  <li><a href="#">Ciasta</a></li>
+                  <li><a href="#">Ciastka</a></li>
+                  <li><a href="#">Babeczki</a></li>
+                  <li><a href="#">Tarty</a></li>
+                </ul>
+              </li>
+          
+                <li><a href="#">Dania Świąteczne</a>
+                  <ul>
+                    <li><a href="#">Boże Narodzenie</a></li>
+                    <li><a href="#">Wielkanoc</a></li>
+                    <li><a href="#">Tłusty Czwartek</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dodatki</a>
+                  <ul>
+                    <li><a href="#">Przetwory</a></li>
+                    <li><a href="#">Pieczywo</a></li>
+                    <li><a href="#">Przekąski</a></li>
+                    <li><a href="#">Surówki & Sałatki</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Obiady</a>
+                  <ul>
+                    <li><a href="#">Pierogi</a></li>
+                    <li><a href="#">Pizza</a></li>
+                    <li><a href="#">Makarony</a></li>
+                    <li><a href="#">Zupy</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Śniadania</a>
+                  <ul>
+                    <li><a href="#">Omlety</a></li>
+                    <li><a href="#">Naleśniki</a></li>
+                    <li><a href="#">Gofry</a></li>
+                    <li><a href="#">Tosty</a></li>
+                  </ul>
+                </li>
+                
+              </ol>
+            
+              <div class="header" style="background-color: pink; padding: 10px; "><br><hr><br><br><br><br><hr></div>
+               <div class="container" style="display:flex; position: relative;" style="color:grey">
+                     <div style="background-color: pink; text-align: center"> 
+                     <h2 style="color: grey">Polecane</h2>
+                     <button id="close-image"><img src="https://www.winiary.pl/image.ashx/zupa-dyniowa-z-imbirem.jpg?fileID=210144&width=800&height=800&frame=True&quality=84&bg=0"  width="130" height="130"></button>
+                      <br><span style="color: rgb(102, 101, 101)">Zupa dyniowa</span> <br><br>
+                      
+                      <button id="close-image"><img src="https://www.mojegotowanie.pl/media/cache/default_view/uploads/media/default/0001/76/54845fddcb90cb691537e0e3a6b48059e9767708.jpeg"  width="130" height="130"></button>
+                      <br><span style="color: rgb(102, 101, 101)">Nadziewane papryki</span> <br><br>
+                      
+                      <button id="close-image"><img src="https://roadtripbus.pl/wp-content/uploads/2019/01/pizza-z-szynka-parmenska-i-rukola.jpg"  width="130" height="130"></button>
+                      <br><span style="color: rgb(102, 101, 101)">Pizza z rukulą<br> i szynką długodojrzewającą</span> <br><br>
+                      
+                      <button id="close-image"><img src="https://www.thespruceeats.com/thmb/ErscLmrL1Tqa1BS7hL38O_7lyZQ=/1367x1367/smart/filters:no_upscale()/potato-cheese-pierogi-recipe-1136822_33_preview-5b32761fc9e77c0037d32bee.jpeg"  width="130" height="130"></button>
+                      <br><span style="color: rgb(102, 101, 101)">Pierogi z mięsem</span> <br><br>
+                      
+                      <button id="close-image"><img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/154270.jpg"  width="130" height="130"></button>
+                      <br><span style="color: rgb(102, 101, 101)">Szaszłyki z kurczakiem<br> w marynacie z pesto</span> <br><br>
+                      
+                    </div> 
+                    <div class="container" style="background-color: Azure;
+                    flex:3;">
+                   <div class="main">
+                      <div class="row">
+                        <div class="column">
+                          <div class="content">
+                            <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/D5CF8393-C1EE-439A-A879-6A887D4EC910/Derivates/ea0a4a25-13a9-4012-8046-b8ec272f676c.jpg"  style="width:100%">
+                            <h3 style="color: pink">Jabłecznik z cynamonową kruszonką</h3>
+                            <p style="color:rgba(148, 140, 151, 0.87)" >
+                                Koniec wakacji to ten czas, kiedy drzewa wprost uginają się pod ciężarem jabłek. Nie można zmarnować tego czasu, upieczenie szarlotki…
+                       
+                         </p>
+                         <input type="button" value="czytaj więcej" style="color:grey">
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="content">
+                              <img src="https://s3.party.pl/styl-zycia/dom/powidla-sliwkowe-379121-MT.jpg" style="width:100%">
+                              <h3 style="color: pink">Domowe powidła</h3>
+                              <p style="color:rgba(148, 140, 151, 0.87)" >
+                                  Dopiero w tym roku wzięło mnie na robienie przetworów, wcześniej bazowałam raczej na maminych zapasach :) Teraz to się jednak… 
+                           </p>
+                           <input type="button" value="czytaj więcej" style="color:grey">
+                          </div>
+                        </div>
+                        
+                        <div class="column">
+                          <div class="content">
+                              <img src="http://kuchniaagaty.pl/wp-content/uploads/2011/12/DSC_0458.jpg" style="width:100%">
+                              <h3 style="color: pink">Rozgrzewający napój jabłkowo-cytrynowy</h3>
+                              <p style="color:rgba(148, 140, 151, 0.87)" >
+                                  Muszę przyznać, że długo nie mogłam pogodzić się z brakiem zimy, hmmm… tej zimy. Teraz jest zbliża się coraz szybciej… 
+                           </p>
+                           <input type="button" value="czytaj więcej" style="color:grey">
+                          </div>
+                        </div>
+                        <div class="column">
+                            <div class="content">
+                                <img src="https://malacukierenka.pl/wp-content/uploads/2016/12/babeczki-piernikowe-z-miodem2.jpg"  style="width:100%">
+                                <h3 style="color: pink">Piernikowe muffiny</h3>
+                                <p style="color:rgba(148, 140, 151, 0.87)" >
+                                    Jestem fanką mini- wypieków. Sernik pieczony w foremce na muffinki to tylko pół godziny i deser gotowy. Podobnie mam z… 
+                             </p>
+                             <input type="button" value="czytaj więcej" style="color:grey">
+                            </div>
+                          </div>
+                        <div class="column">
+                          <div class="content">
+                              <img src="http://kuchniaagaty.pl/wp-content/uploads/2017/03/wega%C5%84skie-ciasteczka-kuchnia-agaty-6.jpg" style="width:100%">
+                              <h3 style="color: pink">Wegańskie ciasteczka kokosowo=owsiane</h3>
+                              <p style="color:rgba(148, 140, 151, 0.87)" >
+                                  Na co dzień nie praktykuję żadnej szczególnej diety, tym bardziej zaskakują mnie przepisy, które pozwalają na przygotowanie dań w bardziej… 
+                           </p>
+                           <input type="button" value="czytaj więcej" style="color:grey">
+                          </div>
+                        </div>
+                      </div>
+                      
+         
+                      
+
+                      </div>
+                   <br><br><br><div class="pagination" style="text-align: center; ">
+                      <a href="#">&laquo;</a>
+                      <a href="#">1</a>
+                      <a class="active" href="#">2</a>
+                      <a href="#">3</a>
+                      <a href="#">4</a>
+                      <a href="#">5</a>
+                      <a href="#">6</a>
+                      <a href="#">(..)</a>
+                      <a href="#">&raquo;</a>
+                    </div> 
+                    </div>
+                    
+                   </div>
+                   <div style="background-color: pink; text-align: center">
+                     <br> <hr style="color: gray">
+                     <h2 style="color: grey;">Wyszukiwarka przepisów</h2>
+                     <hr style="color: gray">
+                   </div>
+
+                   <div style="background-color: azure; text-align: center">
+                    
+                      <form class="form-validation" style="color: grey">
+                          <div class="sub-entry">
+                              
+                          <br>
+                              <div class="form-row form-input-name-row">
+                                  <label>
+                                      <span>Znajdź przepis</span><br>
+                                      <input  type="text">
+                                  </label>
+                              </div>
+                              <div class="form-row form-input-name-row">
+                                  <label>
+                                    <br>  <span>Składniki</span><br>
+                                      <input  type="text">
+                                      <br>Uwzględnij wszystkie składniki<input type="checkbox">
+                                  </label>
+                              </div>
+                          </div>
+                          <div class="sub-entry">
+                              <div class="main-content">
+                                  
+                                  <br>
+                                  <div class="form-row form-input-name-row">
+                                      <label>
+                                          <span >Kategoria</span><br>
+                                          <select style="width: 180px; height: 28px; color:grey">
+                                            <option>Dania Mięsne</option>
+                                            <option>Dania VEGE</option>
+                                            <option>Dania rybne</option>
+                                            <option>Dania sezonowe</option>
+                                            <option>Desery</option>
+                                            <option>Dania Świąteczne</option>
+                                            <option>Dodatki</option>
+                                            <option>Obiady</option>
+                                            <option>Śniadania</option>
+                                          </select>
+                                      </label>
+                                  </div>
+                                  <div class="form-row form-input-name-row">
+                                      <label>
+                                          <br><span>Wyklucz składniki</span><br>
+                                          <input type="text">
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="button" >
+                              <button style="color: grey">Szukaj</button>
+                          </div>
+                          <br><hr>
+                      </form>
+                     
+                   </div>
+                   
+
+                   <div id="footer ">
+                      <div class="footer" style="background-color: pink; padding: 10px; "><br> <hr style="color: gray"></div>
+                    <ol style="text-align: center">
+                        <li><a href="#">Warsztaty</a>
+                        </li>
+                        <li><a href="#">Konkursy</a>
+                          
+                        </li>
+                        <li><a href="#">O mnie</a>
+                        
+                        </li>
+                        <li><a href="#">Współpraca</a>
+                        
+                        </li>
+                        <li><a href="#">Kontakt</a>
+                        
+                        </li>
+                    </ol>
+                    <div class="footer" style="background-color: pink; padding: 10px; "> <hr style="color: gray"><br></div>
+                    </div>
+               
+</body>
+</html>

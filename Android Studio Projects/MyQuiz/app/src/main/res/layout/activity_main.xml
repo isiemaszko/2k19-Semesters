@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    android:background="#00897B">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/true_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/button_true" />
+
+    <Button
+        android:id="@+id/false_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/button_false" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/button_next" />
+
+    <Button
+        android:id="@+id/prompt_button"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/button_prompt" />
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/question_count_text_view"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+
+        android:textColor="#fff" />
+</LinearLayout>
